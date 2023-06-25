@@ -1,5 +1,9 @@
+import StocksDropSelect from './components/stocks-drop-select';
+
 export default function Home() {
   return (
-    <h1>Hello World!</h1>
-  )
+    <div className="flex h-full w-full justify-center items-center">
+      <StocksDropSelect />
+    </div>
+  );
 }
