@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { getStocks } from './use-cases';
+import { getStocks } from './actions';
 
 import arrow from '../../assets/caret-circle-up-down.svg';
 
